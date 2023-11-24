@@ -11,7 +11,7 @@ theme = "hermit-v2"
 languageCode = "en-gb"
 
 title = "CoreDumps"
-enableGitInfo = false
+enableGitInfo = true
 
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
@@ -52,7 +52,7 @@ disqusShortname = "coredumps"
 
   footerCopyright = "This is where CoreDumps"
   bgImg = "images/coredumps-logo-1.png"
-  gitUrl = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
+  gitUrl = "https://github.com/goostleek/goostleek.github.io/commit/"
 
   justifyContent = true
 
