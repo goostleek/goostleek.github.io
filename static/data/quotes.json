@@ -1,0 +1,162 @@
+[
+  {
+    "quote": "Whatever You're Into, Get Into CoreDumps",
+    "author": "Marcin Kłopotek"
+  },
+  {
+    "quote": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand",
+    "author": "Martin Fowler"
+  },
+  {
+    "quote": "First, solve the problem. Then, write the code",
+    "author": "John Johnson"
+  },
+  {
+    "quote": "Experience is the name everyone gives to their mistakes",
+    "author": "Oscar Wilde"
+  },
+  {
+    "quote": "In order to be irreplaceable, one must always be different",
+    "author": "Coco Chanel"
+  },
+  {
+    "quote": "Java is to Javascript what car is to Carpet",
+    "author": "Chris Heilmann"
+  },
+  {
+    "quote": "Knowledge is power",
+    "author": "Francis Bacon"
+  },
+  {
+    "quote": "Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday’s code",
+    "author": "Dan Salomon"
+  },
+  {
+    "quote": "Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away",
+    "author": "Antoine de Saint-Exupéry"
+  },
+  {
+    "quote": "Ruby is rubbish! PHP is phpantastic!",
+    "author": "Nikita Popov"
+  },
+  {
+    "quote": "Code is like humor. When you have to explain it, it’s bad",
+    "author": "Cory House"
+  },
+  {
+    "quote": "Fix the cause, not the symptom",
+    "author": "Steve Maguire"
+  },
+  {
+    "quote": "Optimism is an occupational hazard of programming: feedback is the treament",
+    "author": "Kent Beck"
+  },
+  {
+    "quote": "When to use iterative development? You should use iterative development only on projects that you want to succeed",
+    "author": "Martin Fowler"
+  },
+  {
+    "quote": "Simplicity is the soul of efficiency",
+    "author": "Austin Freeman"
+  },
+  {
+    "quote": "Before software can be reusable it first has to be usable",
+    "author": "Ralph Johnson"
+  },
+  {
+    "quote": "Make it work, make it right, make it fast",
+    "author": "Kent Beck"
+  },
+  {
+    "quote": "Programming isn't about what you know; it's about what you can figure out",
+    "author": "Chris Pine"
+  },
+  {
+    "quote": "The only way to learn a new programming language is by writing programs in it",
+    "author": "Dennis Ritchie"
+  },
+  {
+    "quote": "Sometimes it's better to leave something alone, to pause, and that's very true of programming",
+    "author": "Joyce Wheeler"
+  },
+  {
+    "quote": "In some ways, programming is like painting. You start with a blank canvas and certain basic raw materials. You use a combination of science, art, and craft to determine what to do with them",
+    "author": "Andrew Hunt"
+  },
+  {
+    "quote": "Testing leads to failure, and failure leads to understanding",
+    "author": "Burt Rutan"
+  },
+  {
+    "quote": "The best error message is the one that never shows up",
+    "author": "Thomas Fuchs"
+  },
+  {
+    "quote": "The most damaging phrase in the language is: ‘it's always been done this way’",
+    "author": "Grace Hopper"
+  },
+  {
+    "quote": "Don't write better error messages, write code that doesn't need them",
+    "author": "Jason C. McDonald"
+  },
+  {
+    "quote": "Walking on water and developing software from a specification are easy if both are frozen",
+    "author": "Edward V Berard"
+  },
+  {
+    "quote": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand",
+    "author": "Martin Fowler"
+  },
+  {
+    "quote": "Measuring programming progress by lines of code is like measuring aircraft building progress by weight",
+    "author": "Bill Gates"
+  },
+  {
+    "quote": "First, solve the problem. Then, write the code",
+    "author": "John Johnson"
+  },
+  {
+    "quote": "The first 90 percent of the code accounts for the first 90 percent of the development time. The remaining 10 percent of the code accounts for the other 90 percent of the development time",
+    "author": "Tom Cargill, Bell Labs"
+  },
+  {
+    "quote": "Walking on water and developing software from a specification are easy if both are frozen",
+    "author": "Edward V Berard"
+  },
+  {
+    "quote": "All problems in computer science can be solved by another level of indirection",
+    "author": "David Wheeler"
+  },
+  {
+    "quote": "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it",
+    "author": "Brian Kernighan"
+  },
+  {
+    "quote": "In order to understand recursion, one must first understand recursion",
+    "author": "Unknown"
+  },
+  {
+    "quote": "Premature optimization is the root of all evil!",
+    "author": "Donald Knuth"
+  },
+  {
+    "quote": "Simplicity is prerequisite for reliability",
+    "author": "Edsger Dijkstra"
+  },
+  {
+    "quote": "Some people, when confronted with a problem, think I know, I’ll use regular expressions. Now they have two problems",
+    "author": "Jamie Zawinski"
+  },
+  {
+    "quote": "Commentary: most debugging problems are fixed easily; identifying the location of the problem is hard",
+    "author": "Unknown"
+  },
+  {
+    "quote": "Often designers do complicated things that improve the capacity on a particular hardware platform when it might actually be cheaper to buy more hardware",
+    "author": "Martin Fowler"
+  },
+  {
+    "quote": "Wirth’s law: Software gets slower faster than hardware gets faster",
+    "author": "Niklaus Wirth"
+  }
+]

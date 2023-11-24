@@ -1,0 +1,46 @@
+{{ define "head" }}
+	{{ if .Site.Params.bgImg -}}
+	<style>.bg-img {background-image: url('{{.Site.Params.bgImg}}');}</style>
+	{{- else if .Site.Params.images -}}
+		{{- range first 1 .Site.Params.images -}}
+		<style>.bg-img {background-image: url('{{. | absURL}}');}</style>
+		{{- end -}}
+	{{- end -}}
+{{ end }}
+
+{{ define "main" }}
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			fetch("data/quotes.json")
+					.then(response => response.json())
+					.then(quotes => {
+						const randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
+						document.getElementById("home-subtitle").textContent
+								= `“${randomQuote.quote}.” — ${randomQuote.author}`
+						document.getElementById("home-subtitle").createElement("p").textContent = randomQuote.quote
+						document.getElementById("home-subtitle").createElement("p").textContent = randomQuote.author
+					})
+					.catch(error => {
+						console.log(error)
+					})
+		});
+	</script>
+	{{- if (or .Site.Params.images .Site.Params.bgImg) }}
+	<div class="bg-img"></div>
+	{{- end }}
+	<div id="spotlight" class="animated fadeIn">
+		<div id="home-center">
+			<h1 id="home-title">{{ .Site.Title }}</h1>
+			<p id="home-subtitle">Years of coding forge insight beyond the syntax and semicolons</p>
+			{{- with .Site.Params.socialLinks }}
+			<div id="home-social">
+				{{ partialCached "social-icons.html" . }}
+			</div>
+			{{- end }}
+			<nav id="home-nav" class="site-nav">
+				{{ partialCached "menu.html" . }}
+			</nav>
+		</div>
+		<div id="home-footer">{{ partialCached "single-footer.html" . }}</div>
+	</div>
+{{ end }}
