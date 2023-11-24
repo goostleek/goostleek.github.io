@@ -17,8 +17,6 @@
 						const randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
 						document.getElementById("home-subtitle").textContent
 								= `“${randomQuote.quote}.” — ${randomQuote.author}`
-						document.getElementById("home-subtitle").createElement("p").textContent = randomQuote.quote
-						document.getElementById("home-subtitle").createElement("p").textContent = randomQuote.author
 					})
 					.catch(error => {
 						console.log(error)
