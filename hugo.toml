@@ -59,7 +59,7 @@ disqusShortname = "coredumps"
   relatedPosts = true
   code_copy_button = true
 
-  homeSubtitlePrinter = true
+  homeSubtitlePrinter = false
   scrollToTop = true
   global_mathjax = false
   readTime = true

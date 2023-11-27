@@ -15,8 +15,8 @@
 					.then(response => response.json())
 					.then(quotes => {
 						const randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
-						document.getElementById("home-subtitle").textContent
-								= `“${randomQuote.quote}.” — ${randomQuote.author}`
+						document.getElementById("quote").textContent = randomQuote.quote
+						document.getElementById("author").textContent = randomQuote.author
 					})
 					.catch(error => {
 						console.log(error)
@@ -29,7 +29,11 @@
 	<div id="spotlight" class="animated fadeIn">
 		<div id="home-center">
 			<h1 id="home-title">{{ .Site.Title }}</h1>
-			<p id="home-subtitle">Years of coding forge insight beyond the syntax and semicolons</p>
+			<p id="home-subtitle">
+				“<span id="quote">Years of coding forge insight beyond the syntax and semicolons</span>”
+				<br>
+				— <span id="author">ChatGPT</span>
+			</p>
 			{{- with .Site.Params.socialLinks }}
 			<div id="home-social">
 				{{ partialCached "social-icons.html" . }}
