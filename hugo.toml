@@ -22,7 +22,6 @@ rssLimit = 10
 copyright = "Marcin Kłopotek"
 enableEmoji = true
 
-googleAnalytics = "UA-16526881"
 disqusShortname = "coredumps"
 
 [params.author]
@@ -45,6 +44,7 @@ disqusShortname = "coredumps"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   description = "This is where CoreDumps - by Marcin Kłopotek"
+  googleAnalyticsID = "G-PSPKJX5C26"
 #  images = []
   themeColor = "#494f5c"
 
