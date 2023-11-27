@@ -9,7 +9,8 @@
 {{ end }}
 
 {{ define "main" }}
-	<script src="scripts/quote-loader.js"></script>
+	{{ $quoteLoader := resources.Get "scripts/quote-loader.js"| minify }}
+	<script src="{{ $quoteLoader.RelPermalink }}"></script>
 	{{- if (or .Site.Params.images .Site.Params.bgImg) }}
 	<div class="bg-img"></div>
 	{{- end }}
