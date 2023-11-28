@@ -2,11 +2,14 @@
 title: "Migrating Git History"
 date: 2023-11-20T13:59:49+01:00
 draft: true
-description: "Migrating git files between repos with full history"
+description: "Migrating files between Git repos maintaining history"
 toc: true
+images: ["posts/migrating-git-history/images/post-image.jpg"]
 tags: 
   - git
 ---
+
+![Featured post image](images/post-image.jpg)
 
 ## Introduction
 
