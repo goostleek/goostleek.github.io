@@ -11,6 +11,6 @@ As a passionate software engineer, I hold a deep appreciation for the craft and 
 
 As an open-source contributor, I find joy in giving back to the community that has shaped me. I believe in the collective power of innovation and the sharing of knowledge that open-source embodies.
 
-So join me at `CoreDumps`, where each [post](/posts) is a step on our shared path of technological exploration and growth. Here, every insight is offered with humility, and every reader's perspective is valued. Together, we’ll sift through the bytes and bits of the software world.
+So join me at `CoreDumps`, where each [post](/posts) is a step on our shared path of technological exploration and growth. Together, we’ll sift through the bytes and bits of the software world :rocket:
 
 ![Marcin Kłopotek](/images/me2.jpg)
