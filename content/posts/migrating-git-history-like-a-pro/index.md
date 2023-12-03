@@ -67,7 +67,7 @@ It will generate a patch file for each commit that touched the specified files. 
 * [`--patch`](https://git-scm.com/docs/git-log#Documentation/git-log.txt---patch) - tells the command to generate the
   patch in the output
 * [`--stat`](https://git-scm.com/docs/git-log#Documentation/git-log.txt---statltwidthgtltname-widthgtltcountgt) -
-  includes file names the changes were made to in each commit (will be used to restore the file names the target
+  includes file names the changes were made to in each commit (will be used to restore the file names in the target
   repository)
 * [`--reverse`](https://git-scm.com/docs/git-log#Documentation/git-log.txt---reverse) - ensures that the commits are in
   chronological order (oldest first), the order in which we want to apply the patches in the target repository
