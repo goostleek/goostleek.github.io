@@ -14,8 +14,8 @@ scrollToTop: true
 
 The challenge I recently had to tackle was splitting up a monorepo into smaller repositories by moving some files from
 one repository to another. I know what you are thinking. How hard could it be? It sounds simple enough, but there was a
-catch: I had to preserve the file's history. This meant that I couldn't just copy the file over to the new repository
-and call it a day. I had to find a way to transfer the file's history from one repository to another.
+catch: I had to preserve the history of the moved files. This meant that I couldn't just copy the files over to the new
+repository and call it a day. I had to find a way to transfer the files' history from one repository to another.
 
 Before we delve into the solution, let's take a nostalgic trip back to the...
 
@@ -26,8 +26,9 @@ enjoy. No, it was created with a much humbler purpose in mind: managing patch fi
 
 Picture this: the early 2000s, a world where Linux kernel development was akin to taming a wild beast. Contributors from
 all corners of the globe, each with their unique and possibly conflicting changes, needed a way to collaborate without
-pulling their hair out. Enter Git, the brainchild of Linus Torvalds, who apparently didn't have enough fun creating
-Linux. Git was originally designed to streamline this chaotic process, focusing on handling patch files efficiently.
+pulling their hair out. Enter Git, the brainchild of [Linus Torvalds](https://www.wikiwand.com/en/Linus%20Torvalds), who
+apparently didn't have enough fun creating Linux. Git was originally designed to streamline this chaotic process,
+focusing on handling patch files efficiently.
 
 In the golden days of kernel development, contributors would work on their local machines, make changes, and then
 generate patch files. These weren't your average, run-of-the-mill patches for fixing tiny bugs. No, these were hefty
@@ -46,7 +47,7 @@ move files between repositories with the finesse of a kernel developer, minus th
 Now you know about patches. Git has a built-in command for generating
 them, [`git format-patch`](https://git-scm.com/docs/git-format-patch). This command generates a patch file for each
 commit in the specified range. Unfortunately, this command doesn't work for our use case, as we want to generate a patch
-file for a single file(s), not a range of commits. But don't worry...
+file for files, not a range of commits. But don't worry...
 
 ## ...`git log` to the rescue!
 
@@ -62,12 +63,12 @@ let's [break it down](https://explainshell.com/explain?cmd=git+log+--pretty%3Dem
 It will generate a patch file for each commit that touched the specified files. Let's go through the options one by one:
 
 * [`--format=email`](https://git-scm.com/docs/git-log#Documentation/git-log.txt---formatltformatgt) - ensures that the
-  patch file is in the correct format `email` format (more on that later)
+  patch file is in the correct `email` format (more on that later)
 * [`--patch`](https://git-scm.com/docs/git-log#Documentation/git-log.txt---patch) - tells the command to generate the
   patch in the output
 * [`--stat`](https://git-scm.com/docs/git-log#Documentation/git-log.txt---statltwidthgtltname-widthgtltcountgt) -
-  includes files' paths the changes were made to in each commit (will be used to apply the patch to the corresponding
-  files in the target repository)
+  includes file names the changes were made to in each commit (will be used to restore the file names the target
+  repository)
 * [`--reverse`](https://git-scm.com/docs/git-log#Documentation/git-log.txt---reverse) - ensures that the commits are in
   chronological order (oldest first), the order in which we want to apply the patches in the target repository
 
@@ -86,8 +87,8 @@ the [`git format-patch`](https://git-scm.com/docs/git-format-patch) command, but
 the [`git log`]((https://git-scm.com/docs/git-log)) command. The only caveat is that the patch file must be in
 the `email` format, which is why we used the `--format=email` option when generating the patch file.
 
-Ok, enough talk, let's apply the patch to the target repository. First, navigate to the target repository and make sure
-that it's in a clean state by running [`git status`](https://git-scm.com/docs/git-status). If there are any uncommitted
+Ok, enough talk, let's apply the patch. First, navigate to the target repository and make sure
+it is in a clean state by running [`git status`](https://git-scm.com/docs/git-status). If there are any uncommitted
 changes then stash (or commit) them. Once the repository is in a clean state, we can eventually apply the patch:
 
 ```bash 
@@ -101,4 +102,6 @@ which is not what we want.
 
 The patch application process may take some time, depending on the number of commits in the patch file. It will create a
 commit for each patch from the patch file. Once the process is complete, you should see the commits in the target
-repository 🚀.
+repository.
+
+Congratulations! You have successfully migrated the files along with their history 🚀.
