@@ -12,11 +12,11 @@ diligence and the thrill of solving problems. My skills have been honed over 15 
 know I'm not done yet and am always looking for new opportunities to learn and grow.
 
 As a passionate software engineer, I hold a deep appreciation for the craft and an ever-burning curiosity to explore new
-solutions. I tackle problems with the patience and precision they deserve, always with a mindset geared towards
-efficient and sustainable outcomes.
+tools and technologies and use them to forge working solutions. I tackle problems with the patience and precision they
+deserve, always with a mindset geared towards efficient and sustainable outcomes.
 
 As an open-source contributor, I find joy in giving back to the community that has shaped me. I believe in the
 collective power of innovation and the sharing of knowledge that open-source embodies.
 
 So join me at `CoreDumps`, where each [post](/posts) is a step on our shared path of technological exploration and
-growth. Together, we’ll sift through the bytes and bits of the software world :rocket:
+growth. Together, we’ll sift through the bytes and bits of the software engineering world :rocket:
