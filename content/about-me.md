@@ -18,5 +18,5 @@ deserve, always with a mindset geared towards efficient and sustainable outcomes
 As an open-source contributor, I find joy in giving back to the community that has shaped me. I believe in the
 collective power of innovation and the sharing of knowledge that open-source embodies.
 
-So join me at `CoreDumps`, where each [post](/posts) is a step on our shared path of technological exploration and
-growth. Together, we’ll sift through the bytes and bits of the software engineering world :rocket:
+So join me at my [`CoreDumps`](..), where each [post](/posts) is a step on our shared path of technological exploration
+and growth. Together, we’ll sift through the bytes and bits of the software engineering world :rocket:
