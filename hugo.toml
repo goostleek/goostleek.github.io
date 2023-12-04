@@ -44,7 +44,7 @@ disqusShortname = "coredumps"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   description = "This is where CoreDumps - by Marcin Kłopotek"
-  googleTagManager = "G-PSPKJX5C26"
+  googleAnalyticsID = "G-PSPKJX5C26"
 #  images = []
   themeColor = "#494f5c"
 
