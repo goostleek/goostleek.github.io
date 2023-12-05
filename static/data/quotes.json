@@ -133,7 +133,7 @@
   },
   {
     "quote": "In order to understand recursion, one must first understand recursion",
-    "author": "Unknown"
+    "author": "<Unknown>"
   },
   {
     "quote": "Premature optimization is the root of all evil!",
@@ -149,7 +149,7 @@
   },
   {
     "quote": "Commentary: most debugging problems are fixed easily; identifying the location of the problem is hard",
-    "author": "Unknown"
+    "author": "<Unknown>"
   },
   {
     "quote": "Often designers do complicated things that improve the capacity on a particular hardware platform when it might actually be cheaper to buy more hardware",
@@ -158,5 +158,117 @@
   {
     "quote": "Wirth’s law: Software gets slower faster than hardware gets faster",
     "author": "Niklaus Wirth"
+  },
+  {
+    "quote": "The only constant in the technology industry is change",
+    "author": "Marc Benioff"
+  },
+  {
+    "quote": "The 4 Ps for Change and Release: Planning Prevents Poor Performance",
+    "author": "<Unknown>"
+  },
+  {
+    "quote": "Any sufficiently advanced bug is indistinguishable from a feature",
+    "author": "Rick Kulaweic"
+  },
+  {
+    "quote": "IT is ever-changing and there is the need to evolve in order to stay relevant",
+    "author": "Ryan Ogilvie"
+  },
+  {
+    "quote": "A Release is like a boat. 80% of the holes plugged is not good enough",
+    "author": "<Unknown>"
+  },
+  {
+    "quote": "Try harder next time…is not a problem management method mentioned in ITIL",
+    "author": "Denis Matte"
+  },
+  {
+    "quote": "Technology itself is neither good or bad. People are good or bad",
+    "author": "Naveen Jain"
+  },
+  {
+    "quote": "ITSM delivery is all about helping people and that’s why it’s important to keep the human touch intact",
+    "author": "<Unknown>"
+  },
+  {
+    "quote": "Simplicity is the ultimate sophistication",
+    "author": "Leonardo DaVinci"
+  },
+  {
+    "quote": "IT is not just another department in an organization. It’s pervasive, like electricity",
+    "author": "The Phoenix Project"
+  },
+  {
+    "quote": "The Change manager is like the air traffic controller of the production environment",
+    "author": "<Unknown>"
+  },
+  {
+    "quote": "A fool with a tool is still a fool. Always have a goal, a plan & the tool as the enabler",
+    "author": "Darshan Appayanna"
+  },
+  {
+    "quote": "The best customer service is when end users don’t need to reach out to the help desk",
+    "author": "Nishant Rao"
+  },
+  {
+    "quote": "The SLA explains the service. It does not predict the performance of that service. Explanation does not mean prediction",
+    "author": "Denis Matte"
+  },
+  {
+    "quote": "The simplest way to increase availability is to focus on Incident Management and Change Management",
+    "author": "<Unknown>"
+  },
+  {
+    "quote": "Quality in a service or product is not what you put into it. It’s what the client or customer gets out of it",
+    "author": "Peter Drucker"
+  },
+  {
+    "quote": "The foundation of good help desk support is the ability to organize your workload, prioritize tickets, and monitor ticket management",
+    "author": "Megan Pacella"
+  },
+  {
+    "quote": "The value of networking. It is very important (in IT). There are so many resources out there that you can connect with for the latest updates, tips and tricks",
+    "author": "Ryan Ogilvie"
+  },
+  {
+    "quote": "IT Security is a form of Problem Management. It looks to proactively prevent Incidents",
+    "author": "<Unknown>"
+  },
+  {
+    "quote": "Getting information off the Internet is like taking a drink from a fire hydrant",
+    "author": "Mitchell Kapor"
+  },
+  {
+    "quote": "When working for IT Security, you are only one Incident away from being the most important group in IT",
+    "author": "<Unknown>"
+  },
+  {
+    "quote": "If people resist Root Cause Analysis, ask what they will do to prevent it in the future",
+    "author": "Denis Matte"
+  },
+  {
+    "quote": "Not all improvement ideas are good ones. Process and governance is needed to allow bad ideas to die and good ideas to flourish",
+    "author": "Denis Matte"
+  },
+  {
+    "quote": "If you want a 2-3% efficiency improvement in IT service management, work harder. If you want a 30-50% efficiency improvement, adopt Lean",
+    "author": "Stuart Rance"
+  },
+  {
+    "quote": "Any improvements made anywhere except the bottleneck are an illusion",
+    "author": "The Phoenix Project"
+  },
+  {
+    "quote": "ITSM is full of verschlimmbesserung – supposed improvements that make things worse. Correct this by adopting better change management principles and aligning all initiatives to a shared goal – exceptional customer experience",
+    "author": "Stuart Rance"
+  },
+  {
+    "quote": "In our company, we all have 2 jobs: 1) to do our job and 2) to improve it",
+    "author": "Toyota"
+  },
+  {
+    "quote": "It is better to have a frustrated person who complains than someone who no longer cares about the system in place",
+    "author": "Ryan Ogilvie"
   }
 ]
