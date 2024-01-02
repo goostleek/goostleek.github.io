@@ -409,6 +409,7 @@ p.img-404 {
   margin-top: 0;
   margin-bottom: 1.5em;
   text-align: center;
+  line-height: normal;
   font-size: .7em;
   font-style: italic;
   opacity: .9;
@@ -677,7 +678,14 @@ a.footnote-ref {
     margin-right: .5em;
 
     &::before {
-      content: "#"
+      {{- with .Site.Params.tagSymbol | default "#" -}}content: "{{ . }}"{{- end -}}
+    }
+  }
+  .category {
+    margin-right: .5em;
+
+    &::before {
+      {{- with .Site.Params.categorySymbol | default "⊲" -}}content: "{{ . }}"{{- end -}}
     }
   }
 }
