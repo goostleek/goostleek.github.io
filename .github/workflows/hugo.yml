@@ -11,7 +11,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: false
 
 defaults:
@@ -22,8 +22,8 @@ jobs:
   build-site:
     runs-on: ubuntu-latest
     env:
-      GO_VERSION: '1.21.5'
-      HUGO_VERSION: '0.121.1'
+      GO_VERSION: 1.21.5
+      HUGO_VERSION: 0.121.1
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -36,11 +36,13 @@ jobs:
           go-version: ${{ env.GO_VERSION }}
       - name: Install Hugo CLI
         run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+          wget -qO ${{ runner.temp }}/hugo.deb \
+               "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb" \
+          && sudo dpkg --install ${{ runner.temp }}/hugo.deb
       - name: Install Dart Sass
         run: sudo snap install dart-sass
       - name: Setup Pages
+        id: setup-pages
         uses: actions/configure-pages@v3
       - name: Install Node.js dependencies (if any)
         if: hashFiles('package-lock.json', 'npm-shrinkwrap.json')
@@ -54,18 +56,18 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "${{ steps.setup-pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-  deploy-to-gh-pages:
+  deploy-site:
     if: github.ref == 'refs/heads/main'
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deploy.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build-site
     steps:
-      - name: Deploy to GitHub Pages
+      - id: deploy
         uses: actions/deploy-pages@v4
