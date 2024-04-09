@@ -278,5 +278,21 @@
   {
     "quote": "Software’s girth has surpassed its functionality, largely because hardware advances make this possible. The way to streamline software lies in disciplined methodologies and a return to the essentials",
     "author": "Niklaus Wirth"
+  },
+  {
+    "quote": "There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies. The first method is far more difficult",
+    "author": "Tony Hoare"
+  },
+  {
+    "quote": "The most important single aspect of software development is to be clear about what you are trying to build",
+    "author": "Bjarne Stroustrup"
+  },
+  {
+    "quote": "The best way to get a project done faster is to start sooner",
+    "author": "Jim Highsmith"
+  },
+  {
+    "quote": "There are only two kinds of languages: the ones people complain about and the ones nobody uses.",
+    "author": "Bjarne Stroustrup"
   }
 ]
