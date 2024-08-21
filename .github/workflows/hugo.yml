@@ -22,8 +22,8 @@ jobs:
   build-site:
     runs-on: ubuntu-latest
     env:
-      GO_VERSION: 1.21.5
-      HUGO_VERSION: 0.124.1
+      GO_VERSION: 1.23.0
+      HUGO_VERSION: 0.133.0
     steps:
       - name: Checkout
         uses: actions/checkout@v4
