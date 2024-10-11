@@ -7,14 +7,13 @@
 name = "CoreDumps"
 baseURL = "https://blog.coredumps.io"
 theme = "hermit-v2"
-
 languageCode = "en-gb"
 
 title = "CoreDumps"
 enableGitInfo = true
 
-pygmentsCodefences  = true
-pygmentsUseClasses  = true
+pygmentsCodefences = true
+pygmentsUseClasses = true
 #hasCJKLanguage = true
 
 rssLimit = 10
@@ -25,8 +24,8 @@ enableEmoji = true
 #disqusShortname = "coredumps"
 
 [params.author]
-  name = "Marcin Kłopotek"
-  about = "about-me.md"
+name = "Marcin Kłopotek"
+about = "about-me.md"
 
 [blackfriday]
 #  hrefTargetBlank = true
@@ -34,59 +33,60 @@ enableEmoji = true
 #  nofollowLinks = true
 
 [taxonomies]
-  tag = "tags"
-  # Categories are disabled by default.
-  # category = "categories"
+tag = "tags"
+# Categories are disabled by default.
+# category = "categories"
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+dateform = "Jan 2, 2006"
+dateformShort = "Jan 2"
+dateformNum = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04 -0700"
 
-  description = "This is where CoreDumps - by Marcin Kłopotek"
-  googleAnalyticsID = "G-PSPKJX5C26"
+description = "This is where CoreDumps - by Marcin Kłopotek"
+googleAnalyticsID = "G-PSPKJX5C26"
 #  images = []
-  themeColor = "#494f5c"
+themeColor = "#494f5c"
 
-  homeSubtitle = "Years of coding distilled into a journey of sharing and discovery."
+homeSubtitle = "Years of coding distilled into a journey of sharing and discovery."
 
-  footerCopyright = "This is where CoreDumps"
-  bgImg = "images/coredumps-logo-1.png"
-  gitUrl = "https://github.com/goostleek/goostleek.github.io/commit/"
+footerCopyright = "This is where CoreDumps"
+footerHideThemeName = true
+bgImg = "images/coredumps-logo-1.png"
+gitUrl = "https://github.com/goostleek/goostleek.github.io/commit/"
 
-  justifyContent = true
+justifyContent = true
 
-  relatedPosts = true
-  code_copy_button = true
+relatedPosts = true
+code_copy_button = true
 
-  homeSubtitlePrinter = false
-  scrollToTop = true
-  global_mathjax = false
-  readTime = true
-  readTimeSeparator = "⏲ Reading Time:"
-  # legacyLayout = false
-  shareSocial = true
-  tagSymbol = "#"
-  # categorySymbol = "⊲"
+homeSubtitlePrinter = false
+scrollToTop = true
+global_mathjax = false
+readTime = true
+readTimeSeparator = "⏲ Reading Time:"
+# legacyLayout = false
+shareSocial = true
+tagSymbol = "#"
+# categorySymbol = "⊲"
 
-  [[params.socialLinks]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/marcinklopotek/"
-  [[params.socialLinks]]
-    name = "github"
-    url = "https://github.com/goostleek"
+[[params.socialLinks]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/marcinklopotek/"
+[[params.socialLinks]]
+name = "github"
+url = "https://github.com/goostleek"
 
 [menu]
-  [[menu.main]]
-    name = "📝 Posts"
-    url = "posts/"
-    weight = 10
+[[menu.main]]
+name = "📝 Posts"
+url = "posts/"
+weight = 10
 
-  [[menu.main]]
-    name = "👋 About Me "
-    url = "about-me/"
-    weight = 20
+[[menu.main]]
+name = "👋 About Me "
+url = "about-me/"
+weight = 20
 
 [[module.imports]]
 path = "github.com/hugomods/giscus"
