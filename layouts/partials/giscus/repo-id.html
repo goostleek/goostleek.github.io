@@ -1,0 +1,3 @@
+{{- $json := resources.GetRemote (printf "https://api.github.com/repos/%s" .) }}
+{{- $data := $json | transform.Unmarshal }}
+{{- return $data.node_id }}
