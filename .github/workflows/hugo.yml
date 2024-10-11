@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GO_VERSION: 1.23.0
-      HUGO_VERSION: 0.133.0
+      HUGO_VERSION: 0.135.0
     steps:
       - name: Checkout
         uses: actions/checkout@v4
