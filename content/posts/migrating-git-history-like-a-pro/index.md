@@ -19,7 +19,7 @@ repository and call it a day. I had to find a way to transfer the files' history
 
 Before we delve into the solution, let's take a nostalgic trip back to the...
 
-## ...early days of Git.
+## ...early days of Git
 
 Contrary to popular belief, Git wasn't designed for your fancy GUIs or those delightful merge conflicts you secretly
 enjoy. No, it was created with a much humbler purpose in mind: managing patch files, really.
@@ -42,14 +42,14 @@ capabilities is crucial for mastering the art of migrating files between reposit
 dive into the world of patch file generation and application, Git style. You'll learn how to wield the power of Git to
 move files between repositories with the finesse of a kernel developer, minus the mailing list drama.
 
-## Unleash the power of patch files...
+## Unleash the power of patch files
 
 Now you know about patches. Git has a built-in command for generating
 them, [`git format-patch`](https://git-scm.com/docs/git-format-patch). This command generates a patch file for each
 commit in the specified range. Unfortunately, this command doesn't work for our use case, as we want to generate a patch
 file for files, not a range of commits. But don't worry...
 
-## ...`git log` to the rescue!
+## ...`git log` to the rescue
 
 You are using [this command](https://git-scm.com/docs/git-log) on a daily basis. It's a powerful tool for inspecting the
 history of a repository. But did you know that it can also generate patch files? It can, and it's as simple as:
@@ -91,7 +91,7 @@ Ok, enough talk, let's apply the patch. First, navigate to the target repository
 it is in a clean state by running [`git status`](https://git-scm.com/docs/git-status). If there are any uncommitted
 changes then stash (or commit) them. Once the repository is in a clean state, we can eventually apply the patch:
 
-```bash 
+```bash
 git am --committer-date-is-author-date < path/to/patch.txt
 ```
 
