@@ -8,8 +8,7 @@ images = ['images/coredumps-logo-1.png']
 Hi 👋,
 
 I’m Marcin, a [software engineer 🤓](https://www.linkedin.com/in/marcinklopotek/) who believes in the quiet power of
-diligence and the thrill of solving problems. My skills have been honed over 15 years of real-world challenges, but I
-know I'm not done yet and am always looking for new opportunities to learn and grow.
+diligence and the thrill of solving problems. I am always looking for new opportunities to learn and grow.
 
 As a passionate software engineer, I hold a deep appreciation for the craft and an ever-burning curiosity to explore new
 tools and technologies and use them to forge working solutions. I tackle problems with the patience and precision they
