@@ -2,7 +2,7 @@
 title: "Migrating Git History Like a Pro"
 date: 2023-11-20T13:59:49+01:00
 description: "Using Git patch files to copy file history between repositories"
-images: [ "posts/migrating-git-history-like-a-pro/images/post-image.jpg" ]
+featuredImg: "images/post-image.jpg"
 tags: [ "git", "devops" ]
 toc: true
 scrollToTop: true

@@ -2,7 +2,7 @@
 title: "Broken Git 2.47 Windows Release"
 date: 2024-10-11T16:52:28+02:00
 description: "Why tests are important and how they could have prevented the Git 2.47 Windows release disaster"
-images: [ "posts/broken-git-2.47-windows-release/images/post-image.jpg" ]
+featuredImg: "images/post-image.jpg"
 tags: [ "git" ]
 toc: true
 scrollToTop: true
